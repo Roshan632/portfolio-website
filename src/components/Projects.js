@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import myPhoto from '../assets/profile.jpg';
+import myPhoto from '../assets/profile.png';
 import project1Img from '../assets/project1.png';
 import project2Img from '../assets/project2.jpg';
 import project3Img from '../assets/project3.jpg';
