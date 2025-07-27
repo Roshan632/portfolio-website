@@ -1,0 +1,30 @@
+.banner {
+  position: absolute; /* or use fixed if you want it always visible */
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+  color: #fff;
+  padding: 40px 0;
+  /* border-radius: 0 0 32px 32px; */
+  font-size: 2rem;
+  font-weight: bold;
+  /* text-align: center; */
+  letter-spacing: 2px;
+  box-shadow: 0 8px 32px rgba(44,62,80,0.18);
+  text-shadow: 0 2px 8px #222, 0 0 20px #dd2476;
+  animation: slideInLeft 1s forwards;
+  z-index: 2000;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
